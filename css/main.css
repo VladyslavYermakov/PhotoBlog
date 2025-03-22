@@ -77,7 +77,7 @@ body {
 }
 
 .container {
-  width: 940px;
+  width: 460px;
   padding: 0 20px;
   margin: 0 auto;
   outline: solid red;
@@ -169,6 +169,7 @@ body {
   margin-bottom: 40px;
 }
 .main-item {
+  width: 100%;
   display: block;
   width: 420px;
   margin-bottom: 126px;
