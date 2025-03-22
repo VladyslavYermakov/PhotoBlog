@@ -1,0 +1,20 @@
+.container{
+    width: 940px;
+    padding: 0 20px;
+    margin: 0 auto;
+    outline: solid red;
+}
+
+@media (min-width: 720px) {
+    .container{
+        width: 720px;
+        
+    }
+}
+
+@media (min-width: 940px) {
+    .container{
+        width: 940px;
+        padding: 0 20px;
+    }
+}

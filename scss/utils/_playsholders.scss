@@ -1,0 +1,41 @@
+%flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@mixin button($bg-color,$pl-r,$pt-b){
+ background-color: $bg-color;
+ padding: $pt-b $pl-r;
+ color: #fff;
+ border-radius: 5px;
+}
+.button--axent{
+    @include button(green, 20px, 10px);
+    margin: 0 auto;
+    position: relative;
+    z-index: 100;
+}
+
+
+/*.button{
+
+    position: relative;
+    z-index: 1;
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 12px;
+    background-color: transparent;
+
+}
+
+.button--axent{
+    @extend .button;
+    background-color: #749290;
+}
+
+.button--base{
+    @extend .button;
+    background-color: #1e8f14;
+}*/

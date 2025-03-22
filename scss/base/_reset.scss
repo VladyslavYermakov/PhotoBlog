@@ -1,0 +1,21 @@
+
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+h1,h2,h3,h4,p,ul,li,input,button,a,img{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Playfair Display", serif;
+    color: $text-color;
+    font-size: 14px;
+    line-height: 1.3;
+}

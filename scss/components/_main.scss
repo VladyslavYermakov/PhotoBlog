@@ -1,0 +1,74 @@
+.main{
+    margin-top: 60px;
+    @media (min-width: 720px) {
+        margin-top: 180px;
+    }
+    &-pretitle{
+        font-family: "Playfair Display", serif;
+        font-size: 30px;
+        line-height: 1.2;
+        font-weight: 300;
+        color: $text-color;
+        margin-bottom: 32px;
+    }
+    &-image{
+        
+        display: block;
+        width: 420px;
+        margin-bottom: 62px;
+    }
+    &-header{
+        font-family: "Ubuntu", sans-serif;
+        color: $pre-title-color;
+        font-size: 30px;
+        margin-bottom: 40px;
+    }
+    &-item{
+        @media (min-width: 720px) {
+            width: 300px;
+    }
+
+
+    @media (min-width: 940px) {
+        width: 420px;
+}
+
+
+        display: block;
+        width: 420px;
+        margin-bottom: 126px;
+        &:last-child {
+            margin-bottom: 0;
+        }
+        @media (min-width: 720px) {
+    
+        &:nth-child(7){
+            margin-bottom: 0;
+        }
+    }
+        
+    &-list{
+        @extend %flex;
+        flex-wrap: wrap;
+        margin-bottom: 80px;
+    }
+}
+}
+
+.btn{
+    display: block;
+    background-color: transparent;
+    font-size: 14px;
+    border: 1px, solid $text-color;
+    padding: 20px 48px;
+    margin-right: auto;
+    margin-left: auto;
+    &:hover,
+    &:focus{
+        background-color: $text-color;
+        color: $white;
+    }
+    @media (min-width: 940px) {
+        padding: 20px 48px;
+}
+}
